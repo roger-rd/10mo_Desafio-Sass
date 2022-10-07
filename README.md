@@ -1,5 +1,5 @@
 # 10mo_Desafio-Sass
-holaa... este desafio se realziar modificando Bootstrap mediante la herramienta Sass.
+holaa... este desafio se realiza modificando Bootstrap, mediante la herramienta Sass.
 
 aqui puedes ver la card modificada.
 
