@@ -5,7 +5,7 @@ $dark:black;
 $purple:purple;
 $light: rgb(186, 166, 197);
 $primary: rgb(139, 8, 156);
-@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
 
 .flex{
     width: 100vw;
