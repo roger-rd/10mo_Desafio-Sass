@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+$font-family-base:'Dancing Script', cursive;
+$dark:black;
+$purple:purple;
+$light: rgb(186, 166, 197);
+$primary: rgb(139, 8, 156);
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+
+.flex{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+
+    
+    
+    .boton{
+        margin-left: 25%;
+        align-items: center;
+        
+        a{
+            font-size: 1.3rem;
+            color: $danger;
+        }
+    }
+
+    
+    .card-body h5 {
+        @extend .boton;
+     }
+
+     a{
+        color: $purple;
+        text-decoration: none;
+        margin-bottom: 10px;
+
+        &:hover{
+            color: $primary;
+         }
+    }
+ }
+
+
+
